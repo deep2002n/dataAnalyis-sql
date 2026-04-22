@@ -1,0 +1,9 @@
+list1=["RIL", "TCS", "HDFC", "ITC"]
+list2=[126,116,90,53] # Market val
+list3=[80,30,16,7] # revenue
+
+list1_it=["TCS","INFI","WIPRO","HCL"]
+list2_it=[116,45,25,22] # Market val
+list3_it=[21,12,8,8] # revenue
+
+df1=pd.DataFrame({"comp":list1,"Mval":list2, "Rev":list3})
